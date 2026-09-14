@@ -18,7 +18,7 @@ Minha base inclui estruturas de dados e algoritmos, orientação a objetos, banc
 
 ```text
 $ whoami
-Michael Alexandre · Rolândia, PR
+Michael Alexandre
 
 $ cat foco.txt
 Backend · APIs · Cloud · Sistemas confiáveis
@@ -89,7 +89,9 @@ Plataforma prática para entrega confiável de webhooks. O escopo inclui process
 
 Estou aberto a oportunidades de **desenvolvimento backend, estágio e posições júnior**.
 
-**[Portfólio](https://devstarrk1137.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/)** · **[E-mail](mailto:michaelsralt@gmail.com)**
+Contato profissional: **[michaelsralt@gmail.com](mailto:michaelsralt@gmail.com)**
+
+**[Portfólio](https://devstarrk1137.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/)**
 
 <p align="center">
   <sub>Construindo software com fundamentos fortes, decisões explícitas e espaço para evoluir.</sub>
