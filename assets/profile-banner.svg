@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Michael Alexandre — Desenvolvedor Backend</title>
+  <desc id="desc">Banner monocromático com apresentação profissional e terminal exibindo a stack principal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090909"/>
+      <stop offset="1" stop-color="#18181b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="8%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="400" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="18" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="398" rx="17" fill="none" stroke="#3f3f46" stroke-width="2"/>
+
+  <g fill="none" stroke="#27272a" opacity=".75">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200"/>
+    <path d="M80 0V400M160 0V400M240 0V400M320 0V400M400 0V400M480 0V400M560 0V400M640 0V400M720 0V400M800 0V400M880 0V400M960 0V400M1040 0V400M1120 0V400"/>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="72" y="82" fill="#a1a1aa" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" font-weight="700" letter-spacing="3">OLÁ, EU SOU O MICHAEL.</text>
+    <text x="68" y="157" fill="#f4f4f5" font-size="55" font-weight="800" letter-spacing="-2">Michael Alexandre</text>
+    <text x="72" y="205" fill="#d4d4d8" font-size="27">Desenvolvedor Backend</text>
+    <text x="72" y="256" fill="#a1a1aa" font-size="19">APIs · Cloud · Concorrência · Sistemas confiáveis</text>
+    <rect x="72" y="304" width="238" height="43" fill="#e4e4e7"/>
+    <text x="92" y="332" fill="#090909" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="1">JAVA · GO · PYTHON</text>
+  </g>
+
+  <g transform="translate(735 60)">
+    <rect width="395" height="280" rx="8" fill="#111113" stroke="#52525b" stroke-width="2"/>
+    <path d="M0 43H395" stroke="#3f3f46"/>
+    <circle cx="21" cy="21" r="5" fill="#52525b"/>
+    <circle cx="39" cy="21" r="5" fill="#71717a"/>
+    <circle cx="57" cy="21" r="5" fill="#d4d4d8"/>
+    <text x="78" y="27" fill="#71717a" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">michael@archlinux</text>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">
+      <text x="25" y="82" fill="#71717a">$</text>
+      <text x="45" y="82" fill="#e4e4e7">cat foco.txt</text>
+      <text x="25" y="113" fill="#a1a1aa">Backend · APIs · Cloud</text>
+      <text x="25" y="158" fill="#71717a">$</text>
+      <text x="45" y="158" fill="#e4e4e7">ls stack/</text>
+      <text x="25" y="189" fill="#a1a1aa">Spring · AWS · Docker</text>
+      <text x="25" y="220" fill="#a1a1aa">PostgreSQL · Redis · Linux</text>
+      <text x="25" y="255" fill="#e4e4e7">● pronto para construir</text>
+    </g>
+  </g>
+</svg>
