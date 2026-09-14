@@ -6,7 +6,6 @@
 
 <p align="center">
   <a href="https://devstarrk1137.github.io/"><img alt="Portfólio" src="https://img.shields.io/badge/PORTFÓLIO-090909?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/michael-alexandre-215b60380/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-27272a?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:michaelsralt@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--MAIL-3f3f46?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
@@ -91,7 +90,7 @@ Estou aberto a oportunidades de **desenvolvimento backend, estágio e posições
 
 Contato profissional: **[michaelsralt@gmail.com](mailto:michaelsralt@gmail.com)**
 
-**[Portfólio](https://devstarrk1137.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/)**
+**[Ver portfólio](https://devstarrk1137.github.io/)**
 
 <p align="center">
   <sub>Construindo software com fundamentos fortes, decisões explícitas e espaço para evoluir.</sub>
