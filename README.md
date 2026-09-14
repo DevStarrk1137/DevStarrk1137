@@ -5,93 +5,84 @@
 </p>
 
 <p align="center">
-  <a href="https://devstarrk1137.github.io/"><img alt="Portfólio" src="https://img.shields.io/badge/PORTFÓLIO-090909?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-  <a href="mailto:michaelsralt@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--MAIL-3f3f46?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  Desenvolvedor backend interessado no ponto em que <strong>regras de negócio, concorrência e falhas reais</strong> se encontram.
 </p>
 
-## `01 / SOBRE`
+<p align="center">
+  <a href="https://devstarrk1137.github.io/"><img alt="Portfólio" src="https://img.shields.io/badge/PORTFÓLIO-090909?style=flat-square&logo=googlechrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/michael-alexandre-215b60380/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-27272a?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:michaelsralt@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--MAIL-3f3f46?style=flat-square&logo=gmail&logoColor=white"></a>
+</p>
 
-Sou desenvolvedor backend com vivência prática em projetos usando **Java, Go e Python**. Construo APIs e ferramentas com atenção a regras de negócio, concorrência, persistência, testes e comportamento diante de falhas reais.
+## Construindo agora
 
-Minha base inclui estruturas de dados e algoritmos, orientação a objetos, bancos SQL e NoSQL, Linux, AWS, Docker e CI/CD. Também exploro **orquestração de agentes** e construção de **agent harnesses**.
+### [HookForge](https://github.com/DevStarrk1137/hookforge) `em desenvolvimento`
+
+Uma plataforma para receber e entregar webhooks de forma confiável. É o projeto em que estou praticando o ciclo completo de um sistema orientado a eventos — da ingestão à recuperação de falhas.
 
 ```text
-$ whoami
-Michael Alexandre
-
-$ cat foco.txt
-Backend · APIs · Cloud · Sistemas confiáveis
-
-$ status
-● aberto a oportunidades de estágio e desenvolvimento júnior
+evento HTTP  →  ingestão  →  fila  →  entrega
+                               ├── retry + backoff
+                               ├── idempotência
+                               └── dead-letter queue + replay
 ```
 
-## `02 / PROJETOS SELECIONADOS`
+`Java` `Spring Boot` `PostgreSQL` `Redis` `AWS SQS/S3` `React` `Docker`
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/DevStarrk1137/wallet-api">01 · Wallet API</a></h3>
-      <p><code>Java 21</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>Docker</code></p>
-      <p>API de transferências com atomicidade, proteção contra gasto duplo, integrações HTTP resilientes e notificações persistentes.</p>
-      <p><strong>Destaques:</strong> locks pessimistas ordenados, retentativas com <code>FOR UPDATE SKIP LOCKED</code>, Testcontainers e CI.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/DevStarrk1137/tailwarden">02 · Tailwarden</a></h3>
-      <p><code>Go</code> <code>AWS SDK v2</code> <code>Lambda</code> <code>SAM</code></p>
-      <p>Inventário de funções AWS Lambda em múltiplas regiões, com paginação, filtros e tolerância a falhas parciais.</p>
-      <p><strong>Destaques:</strong> concorrência limitada, ordenação determinística, Docker e pipeline com GitHub Actions/OIDC.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/DevStarrk1137/Lume">03 · Lume</a></h3>
-      <p><code>Java</code> <code>Interpretadores</code> <code>Tipos estáticos</code></p>
-      <p>Linguagem própria com inferência de tipos, funções, closures, classes, traits, módulos, coleções tipadas e REPL.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/DevStarrk1137/ayvu">04 · Ayvu</a></h3>
-      <p><code>Python</code> <code>SQLite</code> <code>pytest</code> <code>EPUB</code></p>
-      <p>CLI de tradução que preserva a estrutura de EPUBs, com cache, memória por similaridade, paralelismo e checkpoints.</p>
-    </td>
-  </tr>
-</table>
+---
 
-### Em desenvolvimento
+## Projetos que mostram como eu penso
 
-**[HookForge](https://github.com/DevStarrk1137/hookforge)** · `Java` `Spring Boot` `AWS` `Redis` `React`
-
-Plataforma prática para entrega confiável de webhooks. O escopo inclui processamento assíncrono, retries, replay, DLQ, idempotência, rate limiting e assinatura HMAC.
-
-## `03 / COMPETÊNCIAS`
-
-| Área | Tecnologias |
+| Projeto | Problema de engenharia explorado |
 |---|---|
-| **Linguagens** | Java 21, Go, Python 3.11+, TypeScript, SQL, Bash |
-| **Backend e APIs** | Spring Boot, Spring Data JPA, REST, GraphQL, OpenAPI, Gin |
-| **Dados** | PostgreSQL, SQLite, Redis, Flyway |
-| **Cloud e DevOps** | AWS Lambda, API Gateway, SQS, S3, SAM, IAM, Docker, GitHub Actions, CI/CD, Git, Arch Linux |
-| **Qualidade** | JUnit, Mockito, Testcontainers, pytest, testes unitários e de integração |
-| **Fundamentos** | DSA, concorrência, transações, orientação a objetos |
-| **Engenharia com agentes** | Orquestração de agentes e agent harnesses |
+| **[Wallet API](https://github.com/DevStarrk1137/wallet-api)** | Como preservar saldo e atomicidade quando transferências concorrentes disputam os mesmos recursos? |
+| **[Tailwarden](https://github.com/DevStarrk1137/tailwarden)** | Como consultar múltiplas regiões AWS com concorrência controlada e ainda retornar resultados diante de falhas parciais? |
+| **[Lume](https://github.com/DevStarrk1137/Lume)** | Como uma linguagem resolve escopo, infere tipos e transforma código-fonte em comportamento executável? |
+| **[Ayvu](https://github.com/DevStarrk1137/ayvu)** | Como tornar um processamento longo retomável, cacheável e seguro sem danificar a estrutura de um EPUB? |
 
-## `04 / CONQUISTAS E FORMAÇÃO`
+Cada repositório inclui documentação técnica, decisões de implementação e instruções para execução.
 
-- **Top 1,3% global** — TCS CodeVita Season 13, competição internacional de programação.
-- **Ciência da Computação** — UniFil.
-- **Oracle · 2026** — Become an Oracle Agentic AI Foundations Associate.
-- **Udemy · EmbarkX** — Java Spring Boot Full Stack: eCommerce Project Masterclass.
-- **Claude Academy · 2026** — Claude 101, Claude Code 101, Agent Skills, Claude Cowork e MCP.
-- **Inglês intermediário.**
+---
 
-## `05 / CONTATO`
+## Caixa de ferramentas
+
+<p>
+  <img alt="Java" src="https://img.shields.io/badge/Java_21-111113?style=flat-square&logo=openjdk&logoColor=white">
+  <img alt="Go" src="https://img.shields.io/badge/Go-18181b?style=flat-square&logo=go&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-27272a?style=flat-square&logo=python&logoColor=white">
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-111113?style=flat-square&logo=springboot&logoColor=white">
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-18181b?style=flat-square&logo=amazonwebservices&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-27272a?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-111113?style=flat-square&logo=redis&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-18181b?style=flat-square&logo=docker&logoColor=white">
+  <img alt="Linux" src="https://img.shields.io/badge/Arch_Linux-27272a?style=flat-square&logo=archlinux&logoColor=white">
+</p>
+
+| Construção | Confiabilidade | Entrega |
+|---|---|---|
+| REST, GraphQL, OpenAPI | Transações, locks, idempotência | Docker, GitHub Actions, CI/CD |
+| Spring Data JPA, Gin | JUnit, Mockito, Testcontainers, pytest | AWS Lambda, API Gateway, SQS, S3 |
+| PostgreSQL, SQLite, Redis | Concorrência, retries, observabilidade | Git, Bash, Arch Linux |
+
+Também estudo **DSA**, orientação a objetos, orquestração de agentes e construção de **agent harnesses**.
+
+---
+
+## Além do código
+
+> **Top 1,3% global · TCS CodeVita Season 13**
+>
+> Resultado em competição internacional de programação.
+
+- Ciência da Computação — UniFil
+- Oracle Agentic AI Foundations Associate · 2026
+- Java Spring Boot Full Stack — EmbarkX/Udemy
+- Inglês intermediário
+
+---
+
+## Vamos conversar
 
 Estou aberto a oportunidades de **desenvolvimento backend, estágio e posições júnior**.
 
-Contato profissional: **[michaelsralt@gmail.com](mailto:michaelsralt@gmail.com)**
-
-**[Ver portfólio](https://devstarrk1137.github.io/)**
-
-<p align="center">
-  <sub>Construindo software com fundamentos fortes, decisões explícitas e espaço para evoluir.</sub>
-</p>
+**[Portfólio](https://devstarrk1137.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/)** · **[michaelsralt@gmail.com](mailto:michaelsralt@gmail.com)**
