@@ -1,61 +1,24 @@
-<div align="center">
-  <img src="assets/terminal-banner.svg" alt="Terminal inspirado no Kitty no Arch Linux: Michael Salvador, desenvolvedor backend, Java, Go e Python." width="100%">
-  <p><strong>Michael Alexandre Schimitt Salvador · Backend Developer</strong></p>
-  <p>
-    <a href="https://michaelalexandredev.github.io/">🇧🇷 Portfólio</a> ·
-    <a href="https://michaelalexandredev.github.io/en.html">🇺🇸 Portfolio</a> ·
-    <a href="https://michaelalexandredev.github.io/resumes/pt-br/curriculo.pdf">Currículo PT</a> ·
-    <a href="https://michaelalexandredev.github.io/resumes/en/resume.pdf">Resume EN</a>
-  </p>
-</div>
+# Michael Salvador
 
-```console
-michael@archlinux:~/profile$ whoami
-Michael Salvador
-Computer Science undergraduate and backend developer from Brazil.
+Computer Science undergraduate at UniFil, based in Brazil. I build backend APIs and developer tools with Java, Go, and Python, especially around transactions, concurrency, and reliable workflows. Open to internships and junior backend roles.
 
-michael@archlinux:~/profile$ cat focus.txt
-Reliable backend systems · APIs · Concurrency · Cloud
+**Portfolio:** [Português](https://michaelalexandredev.github.io/) · [English](https://michaelalexandredev.github.io/en.html)<br>
+**Resume:** [Português](https://michaelalexandredev.github.io/resumes/pt-br/curriculo.pdf) · [English](https://michaelalexandredev.github.io/resumes/en/resume.pdf)<br>
+**Contact:** [LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/) · [Email](mailto:michaelsralt@gmail.com)
 
-michael@archlinux:~/profile$ status
-● open to internships and junior backend roles
-```
+## Selected projects
 
-## `$ ls -lh ~/projects/`
+- **[Wallet API](https://github.com/MichaelAlexandreDev/wallet-api)** — Atomic transfers, ordered wallet locks, and durable notification retries. Java · Spring · PostgreSQL · 49 tests.
+- **[Ayvu](https://github.com/MichaelAlexandreDev/ayvu)** — Local EPUB translation with source preservation, SQLite cache, CSV review, and validation. Python · 330 tests.
+- **[Tailwarden](https://github.com/MichaelAlexandreDev/tailwarden)** — Cross-region AWS Lambda inventory with pagination, bounded workers, and partial-failure warnings. Go · 16 tests.
+- **[Lume](https://github.com/MichaelAlexandreDev/Lume)** — Programming language with type inference, classes, traits, modules, and a REPL. 191 passing integration scenarios.
+- **[HookForge](https://github.com/MichaelAlexandreDev/hookforge)** — Webhook ingestion with JWT authentication and per-user projects. Active development.
 
-- **[wallet-api/](https://github.com/MichaelAlexandreDev/wallet-api)** — Monetary invariants, atomic transfers, deterministic pessimistic locking, external authorization, and durable notification retries.<br>
-  `tests: 49 · 28 integration · 14 HTTP client · 7 domain`
-- **[ayvu/](https://github.com/MichaelAlexandreDev/ayvu)** — Local-first EPUB translation and review, structure preservation, SQLite cache, checkpoints, translation memory, concurrency controls, and output validation.<br>
-  `tests: 330 across 21 files` · Implemented scope is kept separate from the public roadmap.
-- **[Lume/](https://github.com/MichaelAlexandreDev/Lume)** — Programming language with static inference, closures, classes, traits, typed collections, modules, and a REPL.<br>
-  `191 passing integration scenarios` · No external Java library at runtime.
-- **[tailwarden/](https://github.com/MichaelAlexandreDev/tailwarden)** — Cross-region AWS Lambda inventory with SDK pagination, bounded worker pools, deterministic ordering, filters, and partial-failure responses.<br>
-  `16 tests` · No real AWS account needed.
-- **[hookforge/](https://github.com/MichaelAlexandreDev/hookforge)** — JWT authentication, per-user project and endpoint management, and persistent webhook ingestion.<br>
-  `status: active development` · Delivered features and upcoming milestones are documented separately.
+## Toolkit
 
-## `$ cat ~/.config/stack.txt`
+Java · Go · Python · SQL · Spring · PostgreSQL · SQLite · AWS · Docker · GitHub Actions · Linux
 
-```text
-Languages      Java 17 · Java 21 · Go · Python 3.11+ · SQL · Bash
-Backend & APIs Spring Framework · REST · GraphQL · gRPC
-Data           PostgreSQL · SQLite · Redis · Flyway
-Cloud          AWS Lambda · API Gateway · SDK for Go v2 · SAM · IAM
-Delivery       Docker · Docker Compose · GitHub Actions · CI/CD · Git · Linux
-Testing        JUnit 5 · Mockito · Testcontainers · pytest · Go test
-Foundations    Concurrency · Transactions · OOP · Data structures · Algorithms
-```
+## Highlights
 
-## `$ tail -n 5 ~/highlights.log`
-
-- **TCS CodeVita Season 13:** global rank 8,005 — top 1.3% in an international programming competition.
-- **Computer Science:** B.S. candidate at UniFil.
-- **Oracle (2026):** Oracle Agentic AI Foundations Associate.
-- **Current studies:** distributed systems, system design, algorithms and data structures, and AI engineering.
-- **English:** intermediate proficiency.
-
-## `$ cat ~/contact.txt`
-
-[Portfolio](https://michaelalexandredev.github.io/) ·
-[LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/) ·
-[Email](mailto:michaelsralt@gmail.com)
+- TCS CodeVita Season 13: global rank 8,005, top 1.3%.
+- Oracle Agentic AI Foundations Associate (2026).
