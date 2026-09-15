@@ -1,41 +1,58 @@
-<h1 align="center">Michael Alexandre</h1>
+<div align="center">
+  <h1>Michael Alexandre Schimitt Salvador</h1>
+  <p><strong>Backend Developer · Java · Go · Python</strong></p>
+  <p>
+    <a href="https://devstarrk1137.github.io/">🇧🇷 Portfólio</a> ·
+    <a href="https://devstarrk1137.github.io/en.html">🇺🇸 Portfolio</a> ·
+    <a href="https://devstarrk1137.github.io/resumes/pt-br/curriculo.pdf">Currículo PT</a> ·
+    <a href="https://devstarrk1137.github.io/resumes/en/resume.pdf">Resume EN</a>
+  </p>
+</div>
 
-<p align="center">
-  Software Engineer focused on backend systems with Java and Go.
-</p>
+```console
+michael@archlinux:~$ whoami
+Michael Salvador
+Computer Science undergraduate and backend developer from Brazil.
 
-### About
+michael@archlinux:~$ cat focus.txt
+Reliable backend systems · APIs · Concurrency · Cloud
 
-I build projects around transactions, concurrency, persistence, cloud integration, and explicit failure handling. My work ranges from backend APIs and programming-language implementation to file-processing tools. I am seeking Software Engineering and Backend Engineering internship and junior opportunities.
+michael@archlinux:~$ status
+● open to internships and junior backend roles
+```
 
-### Selected Projects
+## `$ ls projects/`
 
-| Project | Engineering focus | Core stack |
+| Project | Engineering focus | Evidence |
 |---|---|---|
-| **[Wallet API](https://github.com/DevStarrk1137/wallet-api)** | Wallet transfers with monetary invariants, atomic debit/credit, deterministic pessimistic locking, external authorization, and persistent notification retries. | Java 21, Spring Boot, PostgreSQL, Testcontainers |
-| **[Tailwarden](https://github.com/DevStarrk1137/tailwarden)** | Cross-region AWS Lambda inventory API with SDK pagination, bounded concurrency, filters, and partial-failure responses. | Go, AWS SDK for Go v2, AWS SAM |
-| **[Lume](https://github.com/DevStarrk1137/Lume)** | A programming language with inferred static types, closures, classes, explicit trait conflict resolution, typed collections, and checked modules. Pipeline: Scanner → Parser → Resolver → TypeChecker → Interpreter. | Java |
-| **[Ayvu](https://github.com/DevStarrk1137/ayvu)** | EPUB-processing CLI that preserves archive structure while translating visible XHTML, with SQLite caching, resumable checkpoints, concurrent document processing, and review/rebuild workflows. | Python, SQLite, pytest |
-| **[HookForge](https://github.com/DevStarrk1137/hookforge)** — work in progress | Current scope: JWT authentication, project and endpoint management, and persistent webhook ingestion. The delivery pipeline is not implemented yet. | Java 21, Spring Boot, PostgreSQL, Flyway |
+| **[Wallet API](https://github.com/DevStarrk1137/wallet-api)** | Monetary invariants, atomic transfers, deterministic pessimistic locking, external authorization, and durable notification retries. | 49 tests: 28 integration, 14 HTTP client, and 7 domain tests. |
+| **[Ayvu](https://github.com/DevStarrk1137/ayvu)** | Local-first EPUB translation and review, structure preservation, SQLite cache, checkpoints, translation memory, concurrency controls, and output validation. | 330 automated tests across 21 files; implemented scope is kept separate from the public roadmap. |
+| **[Lume](https://github.com/DevStarrk1137/Lume)** | Programming language with static inference, closures, classes, traits, typed collections, modules, and a REPL. | 191 passing integration scenarios and no external Java library at runtime. |
+| **[Tailwarden](https://github.com/DevStarrk1137/tailwarden)** | Cross-region AWS Lambda inventory with SDK pagination, bounded worker pools, deterministic ordering, filters, and partial-failure responses. | 16 tests without requiring a real AWS account. |
+| **[HookForge](https://github.com/DevStarrk1137/hookforge)** | JWT authentication, per-user project and endpoint management, and persistent webhook ingestion. | Active development; delivered features and upcoming milestones are documented separately. |
 
-### Tech
+## `$ cat stack.txt`
 
-**Languages:** Java, Go, Python<br>
-**Backend & data:** Spring Boot, REST APIs, Spring Data JPA, PostgreSQL, SQLite, Flyway<br>
-**Cloud & tooling:** AWS, Docker, GitHub Actions, Git, Linux<br>
-**Testing:** JUnit, Mockito, Testcontainers, pytest, Go test and race detector
+```text
+Languages      Java 17 · Java 21 · Go · Python 3.11+ · SQL · Bash
+Backend & APIs Spring Framework · REST · GraphQL · gRPC
+Data           PostgreSQL · SQLite · Redis · Flyway
+Cloud          AWS Lambda · API Gateway · SDK for Go v2 · SAM · IAM
+Delivery       Docker · Docker Compose · GitHub Actions · CI/CD · Git · Linux
+Testing        JUnit 5 · Mockito · Testcontainers · pytest · Go test
+Foundations    Concurrency · Transactions · OOP · Data structures · Algorithms
+```
 
-### Current Focus
+## `$ cat highlights.log`
 
-Studying distributed systems, system design, algorithms and data structures, and AI engineering.
+- **TCS CodeVita Season 13:** global rank 8,005 — top 1.3% in an international programming competition.
+- **Computer Science:** B.S. candidate at UniFil.
+- **Oracle (2026):** Oracle Agentic AI Foundations Associate.
+- **Current studies:** distributed systems, system design, algorithms and data structures, and AI engineering.
+- **English:** intermediate proficiency.
 
-### Highlights
+## `$ contact --open`
 
-- TCS CodeVita Season 13 — top 1.3% globally, rank 8,005.
-- Computer Science — UniFil.
-- Oracle — Become an Oracle Agentic AI Foundations Associate, 2026.
-- English — intermediate.
-
-### Contact
-
-[Portfolio](https://devstarrk1137.github.io/) · [LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/) · [Email](mailto:michaelsralt@gmail.com)
+[Portfolio](https://devstarrk1137.github.io/) ·
+[LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/) ·
+[Email](mailto:michaelsralt@gmail.com)
