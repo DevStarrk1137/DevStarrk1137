@@ -2,10 +2,10 @@
   <h1>Michael Alexandre Schimitt Salvador</h1>
   <p><strong>Backend Developer · Java · Go · Python</strong></p>
   <p>
-    <a href="https://devstarrk1137.github.io/">🇧🇷 Portfólio</a> ·
-    <a href="https://devstarrk1137.github.io/en.html">🇺🇸 Portfolio</a> ·
-    <a href="https://devstarrk1137.github.io/resumes/pt-br/curriculo.pdf">Currículo PT</a> ·
-    <a href="https://devstarrk1137.github.io/resumes/en/resume.pdf">Resume EN</a>
+    <a href="https://michaelalexandredev.github.io/">🇧🇷 Portfólio</a> ·
+    <a href="https://michaelalexandredev.github.io/en.html">🇺🇸 Portfolio</a> ·
+    <a href="https://michaelalexandredev.github.io/resumes/pt-br/curriculo.pdf">Currículo PT</a> ·
+    <a href="https://michaelalexandredev.github.io/resumes/en/resume.pdf">Resume EN</a>
   </p>
 </div>
 
@@ -25,11 +25,11 @@ michael@archlinux:~$ status
 
 | Project | Engineering focus | Evidence |
 |---|---|---|
-| **[Wallet API](https://github.com/DevStarrk1137/wallet-api)** | Monetary invariants, atomic transfers, deterministic pessimistic locking, external authorization, and durable notification retries. | 49 tests: 28 integration, 14 HTTP client, and 7 domain tests. |
-| **[Ayvu](https://github.com/DevStarrk1137/ayvu)** | Local-first EPUB translation and review, structure preservation, SQLite cache, checkpoints, translation memory, concurrency controls, and output validation. | 330 automated tests across 21 files; implemented scope is kept separate from the public roadmap. |
-| **[Lume](https://github.com/DevStarrk1137/Lume)** | Programming language with static inference, closures, classes, traits, typed collections, modules, and a REPL. | 191 passing integration scenarios and no external Java library at runtime. |
-| **[Tailwarden](https://github.com/DevStarrk1137/tailwarden)** | Cross-region AWS Lambda inventory with SDK pagination, bounded worker pools, deterministic ordering, filters, and partial-failure responses. | 16 tests without requiring a real AWS account. |
-| **[HookForge](https://github.com/DevStarrk1137/hookforge)** | JWT authentication, per-user project and endpoint management, and persistent webhook ingestion. | Active development; delivered features and upcoming milestones are documented separately. |
+| **[Wallet API](https://github.com/MichaelAlexandreDev/wallet-api)** | Monetary invariants, atomic transfers, deterministic pessimistic locking, external authorization, and durable notification retries. | 49 tests: 28 integration, 14 HTTP client, and 7 domain tests. |
+| **[Ayvu](https://github.com/MichaelAlexandreDev/ayvu)** | Local-first EPUB translation and review, structure preservation, SQLite cache, checkpoints, translation memory, concurrency controls, and output validation. | 330 automated tests across 21 files; implemented scope is kept separate from the public roadmap. |
+| **[Lume](https://github.com/MichaelAlexandreDev/Lume)** | Programming language with static inference, closures, classes, traits, typed collections, modules, and a REPL. | 191 passing integration scenarios and no external Java library at runtime. |
+| **[Tailwarden](https://github.com/MichaelAlexandreDev/tailwarden)** | Cross-region AWS Lambda inventory with SDK pagination, bounded worker pools, deterministic ordering, filters, and partial-failure responses. | 16 tests without requiring a real AWS account. |
+| **[HookForge](https://github.com/MichaelAlexandreDev/hookforge)** | JWT authentication, per-user project and endpoint management, and persistent webhook ingestion. | Active development; delivered features and upcoming milestones are documented separately. |
 
 ## `$ cat stack.txt`
 
@@ -53,6 +53,6 @@ Foundations    Concurrency · Transactions · OOP · Data structures · Algorith
 
 ## `$ contact --open`
 
-[Portfolio](https://devstarrk1137.github.io/) ·
+[Portfolio](https://michaelalexandredev.github.io/) ·
 [LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/) ·
 [Email](mailto:michaelsralt@gmail.com)
