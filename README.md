@@ -1,18 +1,27 @@
-# Michael Salvador
+<img src="assets/profile-header.svg" alt="Michael Salvador, backend developer in Brazil working with Java, Go, and Python." width="100%">
 
-Computer Science undergraduate at UniFil, based in Brazil. I build backend APIs and developer tools with Java, Go, and Python, especially around transactions, concurrency, and reliable workflows. Open to internships and junior backend roles.
+I'm a Computer Science undergraduate at UniFil. I build backend APIs and local tools, with an interest in transactions, concurrency, and cloud systems. I'm open to internships and junior backend roles.
 
-**Portfolio:** [Português](https://michaelalexandredev.github.io/) · [English](https://michaelalexandredev.github.io/en.html)<br>
-**Resume:** [Português](https://michaelalexandredev.github.io/resumes/pt-br/curriculo.pdf) · [English](https://michaelalexandredev.github.io/resumes/en/resume.pdf)<br>
-**Contact:** [LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/) · [Email](mailto:michaelsralt@gmail.com)
+[Portfolio · PT](https://michaelalexandredev.github.io/) · [Portfolio · EN](https://michaelalexandredev.github.io/en.html) · [Resume · PT](https://michaelalexandredev.github.io/resumes/pt-br/curriculo.pdf) · [Resume · EN](https://michaelalexandredev.github.io/resumes/en/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/michael-alexandre-215b60380/) · [Email](mailto:michaelsralt@gmail.com)
 
-## Selected projects
+## Selected work
 
-- **[Wallet API](https://github.com/MichaelAlexandreDev/wallet-api)** — Atomic transfers, ordered wallet locks, and durable notification retries. Java · Spring · PostgreSQL · 49 tests.
-- **[Ayvu](https://github.com/MichaelAlexandreDev/ayvu)** — Local EPUB translation with source preservation, SQLite cache, CSV review, and validation. Python · 330 tests.
-- **[Tailwarden](https://github.com/MichaelAlexandreDev/tailwarden)** — Cross-region AWS Lambda inventory with pagination, bounded workers, and partial-failure warnings. Go · 16 tests.
-- **[Lume](https://github.com/MichaelAlexandreDev/Lume)** — Programming language with type inference, classes, traits, modules, and a REPL. 191 passing integration scenarios.
-- **[HookForge](https://github.com/MichaelAlexandreDev/hookforge)** — Webhook ingestion with JWT authentication and per-user projects. Active development.
+### [Wallet API](https://github.com/MichaelAlexandreDev/wallet-api)
+
+Atomic wallet transfers with ordered row locks, external authorization, and persistent notification retries.<br>
+Java · Spring · PostgreSQL · 49 tests
+
+### [Ayvu](https://github.com/MichaelAlexandreDev/ayvu)
+
+Local EPUB translation that keeps the original intact, with SQLite cache, translation memory, CSV review, and output validation.<br>
+Python · 330 automated tests
+
+### [Tailwarden](https://github.com/MichaelAlexandreDev/tailwarden)
+
+AWS Lambda inventory across regions with pagination, separate worker limits for regions and tags, and partial-failure warnings.<br>
+Go · AWS · 16 tests
+
+**Also building:** [Lume](https://github.com/MichaelAlexandreDev/Lume), a programming language with 191 passing integration scenarios; and [HookForge](https://github.com/MichaelAlexandreDev/hookforge), a webhook platform in active development.
 
 ## Toolkit
 
