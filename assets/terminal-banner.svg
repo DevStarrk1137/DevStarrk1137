@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Michael Salvador em um terminal inspirado no Kitty e no Arch Linux</title>
+  <desc id="desc">Janela escura de terminal com abas, prompt michael@archlinux, nome Michael Salvador, foco em desenvolvimento backend e painel de informações do perfil.</desc>
+  <defs>
+    <clipPath id="window"><rect x="12" y="12" width="1176" height="396" rx="18"/></clipPath>
+    <style>
+      .mono { font-family: "JetBrains Mono", "DejaVu Sans Mono", Consolas, monospace; }
+      .muted { fill: #a9b2bd; }
+      .green { fill: #70e1c1; }
+      .blue { fill: #86b7ff; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" fill="#0b0d10"/>
+  <rect x="12" y="12" width="1176" height="396" rx="18" fill="#11151a" stroke="#3a4653" stroke-width="2"/>
+  <g clip-path="url(#window)">
+    <rect x="13" y="13" width="1174" height="50" fill="#171c22"/>
+    <rect x="13" y="63" width="1174" height="39" fill="#151b22"/>
+    <line x1="13" y1="63" x2="1187" y2="63" stroke="#2a323c"/>
+    <line x1="13" y1="102" x2="1187" y2="102" stroke="#2a323c"/>
+    <circle cx="41" cy="38" r="7" fill="#ef6d70"/>
+    <circle cx="65" cy="38" r="7" fill="#e8c96a"/>
+    <circle cx="89" cy="38" r="7" fill="#70e1c1"/>
+    <text x="600" y="44" class="mono muted" font-size="18" text-anchor="middle">kitty — michael@archlinux: ~/profile</text>
+    <text x="44" y="89" class="mono green" font-size="17">●  1: profile</text>
+    <text x="251" y="89" class="mono muted" font-size="17">2: projects</text>
+    <line x1="34" y1="101" x2="218" y2="101" stroke="#70e1c1" stroke-width="3"/>
+  </g>
+
+  <text x="52" y="151" class="mono green" font-size="23">michael@archlinux</text>
+  <text x="297" y="151" class="mono blue" font-size="23">~/profile</text>
+  <text x="433" y="151" class="mono muted" font-size="23">$</text>
+  <text x="464" y="151" class="mono" fill="#f5f7fa" font-size="23">cat about.txt</text>
+
+  <text x="52" y="238" class="mono" fill="#f5f7fa" font-size="62" font-weight="700" letter-spacing="-3">MICHAEL SALVADOR</text>
+  <rect x="52" y="259" width="58" height="4" fill="#70e1c1"/>
+  <text x="52" y="299" class="mono blue" font-size="24">BACKEND DEVELOPER</text>
+  <text x="52" y="335" class="mono muted" font-size="20">Java  ·  Go  ·  Python  ·  Reliable systems</text>
+  <text x="52" y="379" class="mono green" font-size="20">michael@archlinux</text>
+  <text x="264" y="379" class="mono blue" font-size="20">~</text>
+  <text x="285" y="379" class="mono muted" font-size="20">$</text>
+  <rect x="314" y="360" width="13" height="22" fill="#70e1c1"/>
+
+  <rect x="827" y="175" width="311" height="180" rx="9" fill="#0d1518" stroke="#28443d" stroke-width="2"/>
+  <text x="851" y="205" class="mono green" font-size="17">PROFILE / INFO</text>
+  <line x1="851" y1="218" x2="1114" y2="218" stroke="#28443d"/>
+  <text x="851" y="251" class="mono muted" font-size="17">base</text>
+  <text x="968" y="251" class="mono" fill="#f5f7fa" font-size="17">Brazil</text>
+  <text x="851" y="284" class="mono muted" font-size="17">focus</text>
+  <text x="968" y="284" class="mono" fill="#f5f7fa" font-size="17">Backend APIs</text>
+  <text x="851" y="317" class="mono muted" font-size="17">status</text>
+  <text x="968" y="317" class="mono green" font-size="17">Open to roles</text>
+</svg>
